@@ -1,0 +1,94 @@
+.person-details-forms-container{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.form-heading{
+    color: green;
+    font-size: 24px;
+    text-align: center;
+}
+.form-container{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.input-field-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.label-text{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.input-field-style{
+    width: 100%;
+    height: 20px;
+}
+.textarea-field-style{
+    width: 100%;
+}
+.select-pet-container{
+    width: 100%;
+    height: 30px;
+}
+.file-input-style{
+    width: 100%;
+    height: 20px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+.radio-group-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.radio-label-text{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+.subject-group-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.buttons-container{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.form-button-element{
+    width: 150px;
+    height: 40px;
+    background-color: darkcyan;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+}
+.error-message{
+    color: red;
+    font-size: 12px;
+}
